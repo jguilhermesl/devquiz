@@ -1,0 +1,87 @@
+.containerPlay {
+	padding: 2rem;
+
+	header {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		h1 {
+			font-weight: 700;
+			font-size: 1.3rem;
+			color: var(--bg-second)
+		}
+
+		.infoUserAdmin {
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+
+			span {
+				font-size: 1rem;
+				font-weight: 600;
+			}
+
+			div {
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				background: var(--blue)
+			}
+		}
+	}
+
+	.flexCardsPlayGame {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+		margin-top: 2rem;
+
+		.cardPlayGame {
+			width: 250px;
+			height: 130px;
+			border: 1px solid var(--text-white);
+			background: #fff;
+			border-radius: 15px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 0.5rem;
+			transition: 0.3s;
+			cursor: pointer;
+
+			span {
+				color: var(--text-gray);
+				font-weight: 700;
+				font-size: 1rem;
+				transition: 0.3s;
+			}
+
+			i {
+				font-size: 4rem;
+				font-weight: 800;
+				color: var(--bg-second);
+				transition: 0.3s;
+			}
+
+			&:hover {
+				border: 1px solid var(--blue);
+				opacity: 1;
+
+				span {
+					color: var(--blue)
+				}
+				i {
+					color: var(--blue)
+				}
+			}
+
+			&:active {
+				opacity: 0.4;
+			}
+		}
+	}
+}

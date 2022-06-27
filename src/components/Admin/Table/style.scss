@@ -1,0 +1,105 @@
+.containerTable {
+	margin-top: 2rem;
+	border-radius: 15px;
+	border: 1px solid var(--text-white);
+	background: #fff;
+	color: var(--bg-second);
+	padding: 2rem;
+
+	header {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		button {
+			display: flex;
+			align-items: center;
+			background: var(--blue);
+			color: var(--text-white);
+			border: none;
+			font-size: 1rem;
+			font-weight: 600;
+			padding: 8px 15px;
+			border-radius: 30px;
+			gap: 7px;
+		}
+	}
+
+	.table {
+		width: 100%;
+		margin-top: 1.6rem;
+
+		.titlesTable {
+			display: flex;
+			border-bottom: 1px solid var(--text-gray);
+			padding-bottom: 8px;
+
+			.spanQuestion {
+				width: 51%;
+			}
+
+			span {
+				width: 13%;
+				font-weight: 700;
+				color: var(--text-gray);
+				font-size: 1rem;
+			}
+
+			.actions {
+				width: 10%;
+			}
+
+		}
+
+		.flexContentTable {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+
+			.contentTable {
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 60px;
+				border-bottom: 1px solid rgb(0,0,0,0.1);
+
+				.spanQuestion {
+					width: 51%;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+					padding-right: 20px;
+				}
+
+				span {
+					width: 13%;
+					font-size: 1rem;
+					font-weight: 700;
+				}
+
+				.actions {
+					width: 10%;
+					display: flex;
+					align-items: center;
+					gap: 5px;
+
+					button {
+						background: var(--blue);
+						border: 0;
+						width: 35px;
+						height: 35px;
+						border-radius: 15px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+					}
+				}
+			}
+		}
+	}
+}
