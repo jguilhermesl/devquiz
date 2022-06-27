@@ -1,12 +1,11 @@
 # DevQuiz - Jogo de Perguntas e Respostas 
 
-<!-- <img src="./public/img/movies-print.png" alt="Carrossel de filmes">
-<img src="./public/img/inspect-print.png" alt="Inspecionando filme">
-<img src="./public/img/favorites-print.png" alt="Filmes favoritos"> -->
+<img src="./public/img/admin.png" alt="Página Admin">
+<img src="./public/img/modal-add-question.png" alt="Modal para add questão">
 
 >  O projeto DevQuiz é um jogo de Perguntas e Respostas completo, com usuários, ranking de pontuação, área Admin para gerenciamento das perguntas e usuários e muito mais!
 
-Confira a aplicação: https://devquiz.netlify.app/ <br>
+Confira a aplicação: https://devqu1z.netlify.app/ <br>
 
 ## :page_facing_up: Explicação
 
@@ -31,6 +30,8 @@ O site tem no total 4 views, sendo elas:
 - **NotFound** 
 ## :dart: Etapas ##
 
+O projeto está em desenvolvimento.
+
 - [x] Desenvolvimento da API em Node
 - [x] Hospedagem da API
 - [x] Início do front com VueJS
@@ -40,7 +41,7 @@ O site tem no total 4 views, sendo elas:
 - [x] Funcionalidades da área admin (editar, cadastrar e deletar questões)
 - [x] Sidebar
 - [x] Modais para editar e cadastrar questão
-- [ ] 
+- [ ] Página Play
 
 ## :rocket: Tecnologias ##
 
